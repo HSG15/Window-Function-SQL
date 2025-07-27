@@ -16,7 +16,7 @@ CREATE TABLE employees (
 INSERT INTO employees (emp_id, name, department, salary) VALUES
 (1, 'Alice', 'Sales', 5000),
 (2, 'Bob', 'Sales', 6000),
-(3, 'Carol', 'Sales', 5500),
+(3, 'Carol', 'Sales', 5000),
 (4, 'Dave', 'HR', 4000),
 (5, 'Eve', 'HR', 4500),
 (6, 'Frank', 'IT', 7000),
@@ -117,6 +117,9 @@ FROM
 WHERE 
   department = 'Sales';
 ```
+## Output:
+
+<img width="2358" height="556" alt="image" src="https://github.com/user-attachments/assets/3583e31a-dc32-46bb-836f-4bb6f7480da9" />
 
 ## ✅ **How to use**
 1. Copy the `CREATE TABLE` and `INSERT` statements to create the test data.
